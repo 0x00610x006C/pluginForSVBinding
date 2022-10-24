@@ -7,14 +7,14 @@
 Если ты не знаешь что такое .scd файл. 
 Прошу ознакомиться со статьей: http://digitalsubstation.com/blog/2013/03/04/kakie-danny-e-hranit-fajl-scd/
 Теперь я расскажу чем я занимаюсь на работе
-Я выбираю из файла синтаксис SCL
+Я выбираю из файла синтаксис SCL  
 Внимание я использую стороннюю библитеку!
-
-После этого нахожу записи вида:
-  <Private type=\"EKRA-SVIn-0-0-Param-0\">010CCD040144</Private>
-  <Private type=\"EKRA-SVIn-0-0-Param-1\">4144</Private>
-  <Private type=\"EKRA-SVIn-0-0-Param-2\">T1G_AMU_C1_324</Private>
-  <Private type=\"EKRA-SVIn-0-0-Param-3\">144</Private>
+  
+После этого нахожу записи вида:  
+`<Private type="EKRA-SVIn-0-0-Param-0">010CCD040144</Private>`  
+`<Private type="EKRA-SVIn-0-0-Param-1">4144</Private>`  
+`<Private type="EKRA-SVIn-0-0-Param-2">T1G_AMU_C1_324</Private>`  
+`<Private type="EKRA-SVIn-0-0-Param-3">144</Private>`  
 
 Выполняю 7 простых действий:
 1) Запоминаю полезную информацию из них
